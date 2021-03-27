@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+dist/
+logs/
+public/
+
+**/.DS_Store
+
+# Editor directories and files
+.vscode
