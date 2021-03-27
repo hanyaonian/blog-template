@@ -53,6 +53,7 @@ export default class userController {
     const { userName, password, phone, email } = ctx.request
       .body as requestBody;
     if (userName !== 'michael') {
+      // 你也可以通过mongo命令行插入用户并屏蔽signup接口
       throw new InvalidQueryError('呵呵，博客是我的');
     }
     try {

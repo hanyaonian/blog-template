@@ -1,7 +1,7 @@
 {
-  "name": "koa-blog",
+  "name": "koa-blog-template",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "app.ts",
   "scripts": {
     "start": "ts-node ./app.ts",
     "build": "tsc",
@@ -11,7 +11,7 @@
   "author": "Michael",
   "repository": {
     "type": "git",
-    "url": "https://https://github.com/hanyaonian/MichaelBlog.git"
+    "url": "https://github.com/hanyaonian/blog-template.git"
   },
   "nodemonConfig": {
     "ignore": [
